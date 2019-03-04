@@ -19,3 +19,14 @@
 // clear function
     // .empty()
 
+// Buttons
+$("#buttons-search").on("click", function() {
+    var button = $(buttonSearch)
+});
+
+
+$("#buttons-clear").on("click", function() {
+    var searchList = $("search-list");
+    $("#name").val("")
+    searchList.empty()
+});
