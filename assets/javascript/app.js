@@ -26,3 +26,14 @@ var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + s
 // clear function
     // .empty()
 
+// Buttons
+$("#buttons-search").on("click", function() {
+    var button = $(buttonSearch)
+});
+
+
+$("#buttons-clear").on("click", function() {
+    var searchList = $("search-list");
+    $("#name").val("")
+    searchList.empty()
+});
