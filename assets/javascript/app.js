@@ -47,7 +47,7 @@ $("#buttons-search").on("click", function () {
     })
 
 });
-
+// dont touch anything above this
 
 $("#buttons-clear").on("click", function () {
     var searchList = $("search-list");
